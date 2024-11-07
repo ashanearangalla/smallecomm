@@ -78,15 +78,36 @@ h2 {
     text-align: right;
 }
 
-#cart-items p {
-    margin-top: 10px;
-    font-size: 15px;
+
+
+.cartItem {
+    background-color: #282727;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#cart-items div {
-    margin-top: 5px;
-    font-size: 15px;
+
+
+.cartItem button {
+    background-color: #be0000;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
+
+.cartItem button:hover {
+    background-color: #a60000;
+}
+
 
 #checkout-btn {
     background-color: #6200ea;
